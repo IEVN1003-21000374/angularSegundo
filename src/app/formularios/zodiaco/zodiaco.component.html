@@ -1,5 +1,5 @@
 <div class="bg-white p-6 rounded-xl shadow-lg max-w-4xl w-full flex justify-between items-start mx-auto my-8">
-    <!-- Contenedor del formulario -->
+
     <div class="w-1/2">
       <h2 class="text-center text-gray-800 text-2xl mb-6">Datos Personales</h2>
       <form [formGroup]="formulario">
@@ -41,7 +41,7 @@
       </form>
     </div>
   
-    <!-- Contenedor de resultados -->
+  
     <div class="w-1/2 text-center" *ngIf="resultado">
       <h3 class="text-gray-800 text-xl mt-0">Hola {{resultado.nombre}} {{resultado.apaterno}} {{resultado.amaterno}}</h3>
       <p class="text-gray-600">Tienes {{resultado.edad}} años</p>
